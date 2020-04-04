@@ -1,7 +1,7 @@
 require("dotenv").config();
-const app = require("./server/app");
-const createDebug = require("debug");
-const chalk = require("chalk");
+import app from "./app";
+import createDebug from "debug";
+import chalk from "chalk";
 const debug = createDebug("app");
 const log = console.log;
 
